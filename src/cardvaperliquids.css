@@ -118,7 +118,14 @@ div {
     transition: all 0.5s;
 }
 
-
+.card-img-top {
+    align-items: center;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    object-fit: cover;
+    width: 98%;
+}
 
 
 
