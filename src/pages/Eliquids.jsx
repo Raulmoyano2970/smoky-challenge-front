@@ -56,7 +56,7 @@ export default function Eliquids() {
       <Fade>
         <h1 className='title-products'>E-liquids</h1>
         <div className='d-flex flex-wrap gap-5 justify-content-center pt-4 pb-4'>
-          {eliquids.length === 0 ? ("NOT FOUND") : (eliquids.map(e => <CardVaper name={e.name} description={e.description} price={e.price} img={e.photo} cont={e.amount} id={e._id} type={"liquids"} />))}
+          {eliquids.length === 0 ? (<> <iframe src="https://giphy.com/embed/j9XoexYMmd7LdntEK4" width="480" height="276" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/404-notfound-under-maintenance-j9XoexYMmd7LdntEK4"></a></p> </>) : (eliquids.map(e => <CardVaper name={e.name} description={e.description} price={e.price} img={e.photo} cont={e.amount} id={e._id} type={"liquids"} />))}
         </div>
       </Fade>
     </div>
