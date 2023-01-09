@@ -1,0 +1,296 @@
+/* Shopping */
+.bg-shop {
+    background-image: url("../public/img/bg-shop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.containershop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orden__container {
+    min-height: 50vh;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: 2rem;
+    border-radius: 20px;
+}
+
+.orden__container h2 {
+    display: none;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    text-shadow: 0 0 15px #58CDFF, 0 0 20px #58CDFF, 0 0 25px #58CDFF, 0 0 30px #58CDFF, 0 0 35px #58CDFF;
+    padding-right: 6.5rem;
+}
+
+.orden__container h2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #797979;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    margin-inline-end: 24px;
+    width: 24px;
+}
+
+.shopping__sumatoria {
+    align-items: center;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.6rem;
+    justify-content: space-between;
+    margin-block-end: 18px;
+    padding: 18px;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.shopping__sumatoria p {
+    margin: 0;
+}
+
+.orden__concepto p:nth-child(1) {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: black;
+}
+
+.orden__productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 5rem;
+    background-color: #161515;
+    margin-bottom: 1rem;
+}
+
+.orden__completa {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.producto__item {
+    align-items: center;
+}
+
+.producto {
+        align-items: center;
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: solid #58cdff;
+        border-radius: 1.5rem;
+}
+
+.producto img {
+    height: 76px;
+    border-radius: 20px;
+    object-fit: cover;
+    width: 76px;
+}
+
+.producto p {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.producto__monto {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.producto__monto p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+}
+
+.producto__monto {
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-image: url("");
+    cursor: pointer;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+
+.pricedeletee {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.orden__monto {
+    color: black
+}
+
+/*Search and checkboxs*/
+.label-check {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.search {
+        background-color: #111111;
+        max-width: 190px;
+        height: 40px;
+        padding: 10px;
+        text-align: center;
+        border: 2px solid #f8f9fa;
+        border-radius: 5px;
+        color: white;
+}
+
+.search:focus {
+    color: white;
+    background-color: #212121;
+    outline-color: #58CDFF;
+    box-shadow: 0 0 30px #58CDFF, 0 0 35px #58CDFF;
+    transition: .1s;
+    transition-property: box-shadow;
+}
+
+.label-check .ckeckbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+input.checkbox {
+    background: #606062 !important;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 7px;
+}
+
+.label-check .ckeckbox:checked~.checkmark {
+    background-image: linear-gradient(#255CD2, #1D52C1)
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.ckeckbox:checked~.checkmark:after {
+    display: block;
+}
+
+.checkmark:after {
+    left: 0.45em;
+    top: 0.20em;
+    width: 0.24em;
+    height: 0.6em;
+    border: solid white;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+}
+
+.title-products {
+    font-weight: bolder;
+    text-shadow: 0 0 15px #FF2D95, 0 0 20px #FF2D95, 0 0 25px #FF2D95, 0 0 30px #FF2D95, 0 0 35px #FF2D95;
+    color: white;
+    font-size: 3rem;
+}
+
+.card-shop {
+    /* width: 40rem;
+    height: 25rem;
+    text-align: center;
+    border-radius: 30px;
+    padding: 1rem;
+    background-color: black;
+    margin: 1rem; */
+    border-radius: 20px;
+    transition: all .2s;
+}
+
+.card-shop:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 1px #ffffff;
+}
+
+.delete-btn {
+    color: white;
+    background-color: #FF2D95;
+    box-shadow: 0 8px 24px 0 rgba(255, 255, 255, 0.2);
+    transition: all .3s ease-in-out;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: transparent;
+    border-radius: .5rem;
+    margin: .2rem;
+}
+
+/*CARROUSEL SE PONE 18 IMAGENES Y SE SACAN CUENTAS MIRAR BIEN*/
+.slider{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display:grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.slider-track{
+    display: flex;
+    width: calc(250px*18);
+    animation: scroll  40s linear infinite;
+
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*9));
+    }
+}
+
+
+.slide{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 1rem;
+}
+
+.slide img{
+    width: 100%;
+}
+

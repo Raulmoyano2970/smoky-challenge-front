@@ -1,0 +1,117 @@
+/* SIGNIN */
+.body-container-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.cardin {
+    width: 40rem;
+    height: 25rem;
+    text-align: center;
+    border-radius: 30px;
+    padding: 1rem;
+    background-color: black;
+    margin: 1rem;
+    border-radius: 20px;
+    transition: all .2s;
+}
+
+.cardin:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 1px #58CDFF;
+}
+
+.title-sign {
+    font-size: 2.5rem;
+    text-shadow:   0 0 25px #58CDFF, 0 0 30px #58CDFF, 0 0 35px #58CDFF;
+}
+
+.card3{
+    margin: 1.5rem;      
+}
+
+.field {
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    background-color: #1c1c20;
+    border-radius: 4px;
+    padding: .5em 1em;
+}
+
+.input-icon {
+    height: 1.5em;
+    width: 1.5em;
+    fill: rgb(255 6 182);
+    object-fit: cover;
+}
+
+.input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 4vh;
+    color: #ffffff;
+}
+
+.btn {
+    color: white;
+    background-color: #FF2D95;
+    box-shadow: 0 8px 24px 0 rgba(255, 255, 255, 0.2);
+    transition: all .3s ease-in-out;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: #58CDFF;
+    color: #ffffff;
+    box-shadow: 0 8px 24px 0 #10277033;
+    transition: all 0.3s;
+}
+
+.btn-link {
+    color: #f5f5f5;
+    display: block;
+    font-size: .75em;
+    transition: color .3s ease-out;
+    margin-top: .5rem;
+}
+
+.btn-link:hover {
+    color: #58CDFF;
+}
+
+/* SIGNUP */
+.body-container-signup {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 80vh;
+        margin: 1rem;
+    }
+
+
+.card {
+    width: 40rem;
+    height: 41rem;
+    text-align: center;
+    border-radius: 30px;
+    
+    background-color: black;
+    margin: 2rem 0 2rem 0;
+    transition: all .2s;
+}
+
+.card:hover{
+    transform: scale(0.98);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 1px #58CDFF;
+}
