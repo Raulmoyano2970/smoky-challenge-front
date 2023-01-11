@@ -56,7 +56,7 @@ export default function Vapers() {
             <Fade>
                 <h1 className='title-products'>Vapers</h1>
                 <div className='d-flex flex-wrap gap-5 justify-content-center pt-4 pb-4'>
-                    {vapers.length === 0 ? (<> <iframe src="https://giphy.com/embed/j9XoexYMmd7LdntEK4" width="480" height="276" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/404-notfound-under-maintenance-j9XoexYMmd7LdntEK4"></a></p> </>) : (vapers.map(e => <CardVaper name={e.name} description={e.description} price={e.price} img={e.photo} cont={e.amount} id={e._id} type={"vapers"} />))}
+                    {vapers.length === 0 ? (<> <img src="https://media.giphy.com/media/14uQ3cOFteDaU/giphy.gif" alt="404" width={350} /> </>) : (vapers.map(e => <CardVaper name={e.name} description={e.description} price={e.price} img={e.photo} cont={e.amount} id={e._id} type={"vapers"} />))}
                 </div>
             </Fade>
         </div>
