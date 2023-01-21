@@ -59,6 +59,64 @@ export default function Vapers() {
                     {vapers.length === 0 ? (<> <img src="https://media.giphy.com/media/14uQ3cOFteDaU/giphy.gif" alt="404" width={350} /> </>) : (vapers.map(e => <CardVaper name={e.name} description={e.description} price={e.price} img={e.photo} cont={e.amount} id={e._id} type={"vapers"} />))}
                 </div>
             </Fade>
+            <div class="slider">
+          <div class="slider-track">
+            <div class="slide">
+              <img src="img/carousel/fume.png" alt="logo fume" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/geekvape.png" alt="logo geekvape" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/ignite.png" alt="logo ignite" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/joytech.png" alt="joytech logo" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/nasty.png" alt="nasty logo" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/smok.png" alt="smok logo" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/vaporesso.png" alt="vaporesso logo" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/geekvape.png" alt="logo geekvape" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/zomo.png" alt="zomo logo" />
+            </div>
+           <div class="slide">
+              <img src="img/carousel/fume.png" alt="logo fume" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/ignite.png" alt="logo ignite" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/joytech.png" alt="joytech logo" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/geekvape.png" alt="logo geekvape" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/nasty.png" alt="nasty logo" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/smok.png" alt="smok logo" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/vaporesso.png" alt="vaporesso logo" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/zomo.png" alt="zomo logo" />
+            </div>
+            <div class="slide">
+              <img src="img/carousel/geekvape.png" alt="logo geekvape" />
+            </div>
+          </div>
+        </div>
         </div>
     )
 }

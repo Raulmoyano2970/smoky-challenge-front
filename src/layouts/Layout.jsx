@@ -1,4 +1,5 @@
 import React from 'react'
+import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
@@ -10,6 +11,7 @@ export default function Layout(props) {
                 <div className='main-full '>
                     {props.children}
                 </div>
+                <BackToTopButton/>
                 <Footer />
             </div>
         </>
