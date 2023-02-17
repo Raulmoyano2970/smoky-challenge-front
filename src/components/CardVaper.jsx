@@ -50,6 +50,14 @@ export default function CardVaper(props) {
             dispatch(shopActions.deleteShops(data1))
         }
     }
+
+    const alerti = () => {
+        Swal.fire(
+            'Must be logged in!',
+            'Login with your username.',
+            'success'
+        )
+    }
     const deleteUser = () => {
         if (type === "liquids") {
             Swal.fire({
@@ -199,7 +207,7 @@ export default function CardVaper(props) {
                     <button className='bottom-cards' onClick={updateUser}>Edition</button>
                 </div>
             </div>
-        </div></>) : (
+        </div></>) : _id.role === "user" ? (
             <><div className="product-card">
                 <img src={img} className="card-img-top"/>
                 <div className="card-body d-flex justify-content-evenly flex-column align-items-center bg-black gap-1">
@@ -212,5 +220,19 @@ export default function CardVaper(props) {
                     {bool ? (<button onClick={send} value={id} className="btn btn-cart">Add to cart</button>) : (<><button onClick={send} value={id} className="btn btn-cart">Add to cart</button><button onClick={send} value={id} name={"delete"} className="btn btn-cart bg-danger">Delete from cart</button> </>)}
                 </div>
             </div></>)
+             : (
+            <><div className="product-card">
+                <img src={img} className="card-img-top"/>
+                <div className="card-body d-flex justify-content-evenly flex-column align-items-center bg-black gap-1">
+                    <h5 className="card-title">{name}</h5>
+                    <p className="card-text mb-0 text-white mi">{description}.</p>
+                    <div className="price-container d-flex">
+                        <p>${price}</p>
+                        <input className="input-cart" onChange={numb} type="number" min="0" max={cont} placeholder={0} name="quantity" id="quantity" />
+                    </div>
+                    <button onClick={alerti} value={id} className="btn btn-cart">Add to cart</button>
+                </div>
+            </div></>)
+
     )
 }
