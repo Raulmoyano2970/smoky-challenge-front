@@ -57,8 +57,7 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-warning">
-                    <h6>Smoky Vape Shop® 2022 |
-                        Developed by hugosmahlij, RocioDuarteBazan, juan-francoa, pilisalto, Raulmoyano2970, CarolinaPerez1992, y MelissaUribeRojas21 - find us on Github</h6>
+                    <h6>Smoky Vape Shop® 2022 | Find us on Github</h6>
                 </div>
 
             </footer>

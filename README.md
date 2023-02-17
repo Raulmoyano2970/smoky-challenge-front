@@ -1,3 +1,50 @@
+# Smoky venta de vapeadores
+
+## Levantamiento de proyecto
+npm install 
+npm start
+
+## Host
+FRONT: https://smokyweb.vercel.app
+BACK: https://backsmoky.onrender.com
+
+## Repositorio Github
+FRONT: https://github.com/Raulmoyano2970/smoky-challenge-front
+BACK: https://github.com/Raulmoyano2970/E-commerce_back
+
+## Usuario prueba
+USER: rocioduarte197@gmail.com 
+PASSWORD: hola123
+
+start
+
+
+## Librerias y frameworks
+   "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.17",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.2.3",
+    "install": "^0.13.0",
+    "npm": "^9.2.0",
+    "react": "^18.2.0",
+    "react-awesome-reveal": "^4.1.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.5",
+    "react-scripts": "5.0.1",
+    "sweetalert2": "^11.6.15",
+    "web-vitals": "^2.1.4"
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
