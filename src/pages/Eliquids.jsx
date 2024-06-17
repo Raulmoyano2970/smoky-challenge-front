@@ -72,7 +72,10 @@ export default function Eliquids() {
             <h4 className='title-products'>Cargando productos...</h4>
           ) : (
             eliquids.length === 0 ? (
-              <img src="https://media.giphy.com/media/14uQ3cOFteDaU/giphy.gif" alt="404" width={350} />
+              
+              <h4 className='title-products'>Cargando productos...</h4>
+              // <img src="https://media.giphy.com/media/14uQ3cOFteDaU/giphy.gif" alt="404" width={350} />
+              
             ) : (
               eliquids.map(e => (
                 <CardVaper
